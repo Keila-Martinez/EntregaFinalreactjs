@@ -1,0 +1,44 @@
+.fotoProducto {
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out; /* Agrega una transición a la propiedad transform */
+}
+
+img{
+    width: fit-content;
+    height: 100px;
+    overflow:visible;
+}
+
+.divProducto {
+    background-color: #fca7ff;
+    margin: 1rem;
+    width: 15rem;
+    height: 15rem;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.divProducto:hover .fotoProducto {
+    transform: scale(1.4); }
+
+
+
+.verDetallesButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:rgb(124, 16, 124);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .verDetallesButton:hover {
+    background-color: #a837ac;
+  }
+
+  

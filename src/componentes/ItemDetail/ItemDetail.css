@@ -1,0 +1,46 @@
+.fotoProductoDetalle {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.detalleProducto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap ;
+    align-items: center;
+    width: 20rem;
+    max-width: 100%;
+    text-align: center;
+    padding: 2rem;
+    margin: 1.5rem;
+    border: 2px solid #333;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.detalleProducto:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.detalleProducto:hover .fotoProductoDetalle {
+    transform: scale(1.1);
+}
+
+/* Agrega estilos específicos para mejorar la apariencia del texto, puedes ajustar según sea necesario */
+.detalleProducto h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.detalleProducto p {
+    font-size: 1rem;
+    color: #666;
+}
+

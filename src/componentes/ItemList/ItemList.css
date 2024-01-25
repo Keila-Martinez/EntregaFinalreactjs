@@ -1,0 +1,12 @@
+.detalleCentrado{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.detalleCentrado2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
