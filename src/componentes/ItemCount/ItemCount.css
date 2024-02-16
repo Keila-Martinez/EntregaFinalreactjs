@@ -1,0 +1,83 @@
+.botones {
+    background-color: #aa49a5;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 10px;
+    font-family: "Lato", sans-serif;
+   font-weight: 400;
+   font-style: italic;
+}
+ h3{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+
+
+.botones {
+    background-color: #6b0d97;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.botones:hover {
+    background-color: #e03e8a;
+}
+
+.centrado1 {
+    display: grid;
+    place-items:center;
+    height: 100vh; }
+
+   
+     .contenedor {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 20px; 
+        justify-content: center; 
+        align-items: center; 
+    }
+
+    .productos {
+        border-right: 1px solid #2b2a2a;
+        padding: 10px;
+        margin-bottom: 10px; 
+        grid-column: 1; 
+        text-align: center;
+
+    }
+    
+    .acciones {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px; 
+        
+    }
+    
+    .botones {
+        margin-bottom: 10px; 
+    }
+
+   

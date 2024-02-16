@@ -2,6 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin-left: 50px;
+    margin-right: 10px;
 }
 
 .detalleCentrado2{

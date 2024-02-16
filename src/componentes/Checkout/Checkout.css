@@ -1,0 +1,78 @@
+.checkout-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.checkout-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.checkout-form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.checkout-error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.btn-finalizar {
+    padding: 10px 20px;
+    background-color: #bb3bb5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-finalizar:hover {
+    background-color: #f096e4;
+}
+
+.checkout-success {
+    font-weight: bold;
+    color: #28a745;
+    margin-top: 10px;
+}
+
+.form-control {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    height: 40px; /* Ajusta la altura según sea necesario */
+    box-sizing: border-box; /* Esto asegura que el padding se incluya en la altura total */
+}
+
+.form-group-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form-group {
+    font-family:'Petrea', sans-serif; ;
+    margin-bottom: 15px;
+    margin-left: 8em;
+    display: flex;
+    justify-content:space-between;
+    width: 60%; /* Ajusta el ancho para dividir en dos columnas */
+}
+
+
+label{
+    margin-top: 15px;
+}
+
+.form-group input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}

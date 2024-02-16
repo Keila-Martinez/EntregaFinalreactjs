@@ -23,8 +23,8 @@ img{
 
 }
 
-.divProducto:hover .fotoProducto {
-    transform: scale(1.4); }
+.divProducto .fotoProducto:hover {
+    transform: scale(1.3); }
 
 
 
