@@ -3,7 +3,7 @@ import { useState, useContext } from 'react';
 import { CarritoContext } from '../../context/CarritoContext';
 import { db } from "../../services/config";
 import { collection, addDoc } from 'firebase/firestore';
-import swal from "sweetalert2"
+import Swal from "sweetalert2"
 import './Checkout.css';
 
 const Checkout = () => {
@@ -38,17 +38,16 @@ const Checkout = () => {
             apellido,
             telefono,
             email,
-            
-
         }
+
         addDoc(collection(db, "ordenes"), orden)
             .then(docRef => {
                 setOrdenId(docRef.id);
                 vaciarCarrito();
                 Swal.fire({
-                                        title: "¡Orden generada exitosamente!",
-                                        text: `Tu número de orden es: ${docRef.id}`,
-                                        icon: "success",
+                            title: "¡Orden generada exitosamente!",
+                            text: `Tu número de orden es: ${docRef.id}`,
+                            icon: "success",
                                         
                                     });
             })
