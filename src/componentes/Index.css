@@ -1,5 +1,10 @@
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
     background-color: rgba(219, 141, 250, 0.849);
+    
 }
 h2 {
     font-family: 'Petrea', sans-serif;
@@ -9,4 +14,24 @@ h3{
 }
 p{
     font-size: 20px;
+}
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    background-color: rgb(253, 253, 253);
+
+}
+  
+.wrapper {
+    flex: 1;
+}
+
+
+.logo {
+    width: 13em;
+    height:13em ;
 }
