@@ -1,6 +1,6 @@
 .fotoProducto {
     object-fit: cover;
-    transition: transform 0.3s ease-in-out; /* Agrega una transición a la propiedad transform */
+    transition: transform 0.3s ease-in-out; 
 }
 
 img{
